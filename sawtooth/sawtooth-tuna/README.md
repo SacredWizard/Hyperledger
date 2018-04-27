@@ -9,6 +9,6 @@ This application was written by Zac Delventhal maintainer on Hyperledger Sawtoot
 ---
 **NOTE**
 
-This example is based on v0.8 of Hyperledger Sawtooth. Please refer to the [v0.8 documentation](https://sawtooth.hyperledger.org/docs/core/releases/0.8/) when working with this example.
+Updated the hoek package to 5.0.3 due to a security vulnerability. Please refer [this](https://nvd.nist.gov/vuln/detail/CVE-2018-3728)
 
 ---
