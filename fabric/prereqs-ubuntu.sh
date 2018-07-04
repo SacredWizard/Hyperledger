@@ -81,11 +81,11 @@ npm install npm@latest -g
 sudo apt-get -y install apt-transport-https ca-certificates
 
 # Add Docker repository key to APT keychain
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+# curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 # Update where APT will search for Docker Packages
-echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu ${CODENAME} stable" | \
-    sudo tee /etc/apt/sources.list.d/docker.list
+# echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu ${CODENAME} stable" | \
+#    sudo tee /etc/apt/sources.list.d/docker.list
 
 # Update package lists
 sudo apt-get update
