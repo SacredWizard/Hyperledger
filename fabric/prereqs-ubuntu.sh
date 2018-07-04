@@ -100,17 +100,17 @@ if [ "${CODENAME}" == "trusty" ]; then
 fi
 
 # Install Docker
-echo "# Installing Docker"
-sudo apt-get -y install docker-ce
+# echo "# Installing Docker"
+# sudo apt-get -y install docker-ce
 
 # Add user account to the docker group
-sudo usermod -aG docker $(whoami)
+# sudo usermod -aG docker $(whoami)
 
 # Install docker compose
-echo "# Installing Docker-Compose"
-sudo curl -L "https://github.com/docker/compose/releases/download/1.13.0/docker-compose-$(uname -s)-$(uname -m)" \
-    -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+# echo "# Installing Docker-Compose"
+# sudo curl -L "https://github.com/docker/compose/releases/download/1.13.0/docker-compose-$(uname -s)-$(uname -m)" \
+#     -o /usr/local/bin/docker-compose
+# sudo chmod +x /usr/local/bin/docker-compose
 
 # Install python v2 if required
 set +e
@@ -131,10 +131,10 @@ echo -n 'Node:           '
 node --version
 echo -n 'npm:            '
 npm --version
-echo -n 'Docker:         '
-docker --version
-echo -n 'Docker Compose: '
-docker-compose --version
+# echo -n 'Docker:         '
+# docker --version
+# echo -n 'Docker Compose: '
+# docker-compose --version
 echo -n 'Python:         '
 python -V
 
