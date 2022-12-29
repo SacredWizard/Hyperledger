@@ -16,6 +16,6 @@
     "sawtooth-sdk": "^0.8.1"
   },
   "devDependencies": {
-    "webpack": "^3.5.4"
+    "webpack": "^5.75.0"
   }
 }
